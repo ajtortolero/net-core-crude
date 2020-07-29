@@ -1,0 +1,14 @@
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.DAL.deps.json
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.DAL.dll
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.DAL.pdb
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.Core.Crosscuting.dll
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.Core.dll
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.Core.Crosscuting.pdb
+C:\Repositories\FleetControl\src\FleetControl.DAL\bin\Debug\netcoreapp2.2\FleetControl.Core.pdb
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.csprojAssemblyReference.cache
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.csproj.CoreCompileInputs.cache
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.AssemblyInfoInputs.cache
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.AssemblyInfo.cs
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.csproj.CopyComplete
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.dll
+C:\Repositories\FleetControl\src\FleetControl.DAL\obj\Debug\netcoreapp2.2\FleetControl.DAL.pdb

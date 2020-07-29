@@ -1,0 +1,17 @@
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.deps.json
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.dll
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.pdb
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.csproj.CoreCompileInputs.cache
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.AssemblyInfoInputs.cache
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.AssemblyInfo.cs
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.dll
+C:\Repositories Personal\GitHub\NETCore.Crude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.pdb
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.deps.json
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.dll
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\bin\Debug\netcoreapp2.2\NETCoreCrude.Base.pdb
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.csproj.CoreCompileInputs.cache
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.AssemblyInfoInputs.cache
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.AssemblyInfo.cs
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.dll
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.pdb
+C:\Repositories Personal\GitHub\NETCoreCrude\NETCoreCrude.Base\obj\Debug\netcoreapp2.2\NETCoreCrude.Base.csprojAssemblyReference.cache

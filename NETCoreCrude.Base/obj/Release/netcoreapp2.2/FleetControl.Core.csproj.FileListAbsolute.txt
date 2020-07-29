@@ -1,0 +1,9 @@
+C:\Repositories\FleetControl\src\FleetControl.Core\bin\Release\netcoreapp2.2\FleetControl.Core.deps.json
+C:\Repositories\FleetControl\src\FleetControl.Core\bin\Release\netcoreapp2.2\FleetControl.Core.dll
+C:\Repositories\FleetControl\src\FleetControl.Core\bin\Release\netcoreapp2.2\FleetControl.Core.pdb
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.csprojAssemblyReference.cache
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.csproj.CoreCompileInputs.cache
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.AssemblyInfoInputs.cache
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.AssemblyInfo.cs
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.dll
+C:\Repositories\FleetControl\src\FleetControl.Core\obj\Release\netcoreapp2.2\FleetControl.Core.pdb

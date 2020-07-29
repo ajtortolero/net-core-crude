@@ -1,0 +1,85 @@
+<h6 class="d-flex justify-content-between align-items-center mb-3">
+	<span class="text-muted">Employee Create / Edit</span>
+</h6>
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off" accept-charset="UTF-8" employee-form-validator>
+	<input type="hidden" name="EmployeeID" #EmployeeID="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.EmployeeID">
+	<div class="form-group">
+		<label for="Code">Code</label>
+		<input type="text" name="Code" #Code="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.Code" required
+			minlength="4" [ngClass]="{ 'is-invalid': formSubmitted && Code.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && Code.invalid" class="invalid-feedback">
+			<div *ngIf="Code.errors.required">Name is required.</div>
+			<div *ngIf="Code.errors.minlength">Name must be at least 4 characters long.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="Name">Name</label>
+		<input type="text" name="Name" #Name="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.Name" required
+			minlength="10" [ngClass]="{ 'is-invalid': formSubmitted && Name.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && Name.invalid" class="invalid-feedback">
+			<div *ngIf="Name.errors.required">Name is required.</div>
+			<div *ngIf="Name.errors.minlength">Name must be at least 10 characters long.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="LastName">Lastname</label>
+		<input type="text" name="LastName" #LastName="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.LastName"
+			required minlength="10" [ngClass]="{ 'is-invalid': formSubmitted && LastName.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && LastName.invalid" class="invalid-feedback">
+			<div *ngIf="LastName.errors.required">Lastname is required.</div>
+			<div *ngIf="LastName.errors.minlength">Lastname must be at least 10 characters long.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="Mobile">Mobile</label>
+		<input type="tel" name="Mobile" #Mobile="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.Mobile"
+			placeholder="123-456-7890" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+			[ngClass]="{ 'is-invalid': formSubmitted && Mobile.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && Mobile.invalid" class="invalid-feedback">
+			<div *ngIf="Mobile.errors.required">Mobile is required.</div>
+			<div *ngIf="Mobile.errors.pattern">Format Invalid.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="Email">Email</label>
+		<input type="email" name="Email" #Email="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.Email"
+			placeholder="you@example.com" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+			[ngClass]="{ 'is-invalid': formSubmitted && Email.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && Email.invalid" class="invalid-feedback">
+			<div *ngIf="Email.errors.required">Email is required.</div>
+			<div *ngIf="Email.errors.pattern">Email must be a valid email address.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="ContractTypeID">Contract Type</label>
+		<select name="ContractTypeID" #ContractTypeID="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.ContractTypeID"
+			[customValueMin]="1" [ngClass]="{ 'is-invalid': formSubmitted && ContractTypeID.invalid }"
+			class="custom-select d-block w-100">
+			<option value="0" selected>Select Contact Type</option>
+			<option *ngFor="let iteContractTypeList of pContractTypeService._ContractTypeList"
+				[ngValue]="iteContractTypeList.contractTypeID">{{ iteContractTypeList.name }}</option>
+		</select>
+		<div *ngIf="formSubmitted && ContractTypeID.invalid" class="invalid-feedback">
+			<div *ngIf="ContractTypeID.errors?.customValueMin">Contract Type is required.</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="SalaryBase">Salary Base</label>
+		<input type="number" name="SalaryBase" #SalaryBase="ngModel" [(ngModel)]="pEmployeeService._EmployeeData.SalaryBase"
+			requerid pattern="^[0-9]*$" [customValueMin]="salaryBaseMinValue" [customValueMax]="salaryBaseMaxValue"
+			[ngClass]="{ 'is-invalid': formSubmitted && SalaryBase.invalid }" class="form-control">
+		<div *ngIf="formSubmitted && SalaryBase.invalid" class="invalid-feedback">
+			<div *ngIf="SalaryBase.errors.required">Salary Base is required.</div>
+			<div *ngIf="SalaryBase.errors.pattern">Salary Base must be a number.</div>
+			<div *ngIf="SalaryBase.errors?.customValueMin">Salary Base minimum required number is {{ salaryBaseMinValue }}.
+			</div>
+			<div *ngIf="SalaryBase.errors?.customValueMax">Salary Base maximun required number is {{ salaryBaseMaxValue }}.
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block btn-secondary">SUBMIT</button>
+	</div>
+</form>
+<ngx-spinner bdColor="rgba(0, 0, 0, 0.5)" size="default" type="ball-clip-rotate-multiple">
+</ngx-spinner>
